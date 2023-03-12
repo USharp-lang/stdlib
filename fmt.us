@@ -1,0 +1,6 @@
+fn printf(toPrint, values) {
+    println(format(toPrint, values))
+}
+fn inputf(data, values) {
+    return input(format(data, values))
+}
