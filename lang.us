@@ -1,3 +1,3 @@
-langVersion := '23.03'
-langName := 'U#'
-langAuthor := '40fpsss'
+var langVersion = '23.04'
+var langName = 'U#'
+var langAuthor = '40fpsss'
