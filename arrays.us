@@ -1,9 +1,0 @@
-fn findDups(arr) {
-    mut found := {}
-    mut dups := {}
-    foreach val : arr { 
-        if contains(found, val) dups << val
-        else found << val
-    } 
-    return dups
-}
