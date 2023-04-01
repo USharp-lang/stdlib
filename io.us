@@ -1,9 +1,0 @@
-fn writef(fileName, data, values) {
-    write(fileName, format(data, values))
-}
-fn readf(fileName, values) {
-    return format(read(fileName), values)
-}
-fn executef(data, values) {
-    execute(format(data, values))
-}
