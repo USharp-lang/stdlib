@@ -1,0 +1,3 @@
+fn GetBit(bb: Uint, i: Int): Int { return ( bb & (1ULL << i) ) }
+fn SetBit(bb: Uint, i: Int): Uint { bb |= (1ULL << i) return bb }
+fn PopBit(bb: Uint, i: Int): Uint { if (GetBit(bb, i)) bb ^= (1ULL << i) return bb }
